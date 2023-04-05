@@ -22,7 +22,6 @@
 
     <div class="container">
         <main>
-            {{ $view }}
             @include($view)
         </main>
 

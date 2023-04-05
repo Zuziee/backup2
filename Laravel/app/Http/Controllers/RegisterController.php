@@ -20,10 +20,6 @@ class RegisterController extends MyController
 
     function create(Request $request){
 
-        $validate = $request->validate([
-            'email' => 'required'
-        ]);
-
         $data['firstName'] = $request->input('firstName', '');
         $data['lastName'] = $request->input('lastName', '');
         $data['email'] = $request->input('email', '');

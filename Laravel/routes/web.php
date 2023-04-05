@@ -31,7 +31,6 @@ Route::post('/my-controller', function(){
     return "POST";
 });
 
-
 Route::get('/register', [RegisterController::class, 'index']);
 
 Route::post('/register', [RegisterController::class, 'create']);

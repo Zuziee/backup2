@@ -13,7 +13,7 @@ class MyController extends Controller
     }
     //
     function show($test = ""){
-        $datas['name'] = "this is  my controller : " . $test;
+        $datas['name'] = "Login" . $test;
 
         return view('my_view', $datas);
     }
